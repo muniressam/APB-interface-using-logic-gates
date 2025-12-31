@@ -1,0 +1,163 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2025  Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Altera and sold by Altera or its authorized distributors.  Please
+refer to the Altera Software License Subscription Agreements 
+on the Quartus Prime software download page.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 224 368)
+	(text "MUX8_161" (rect 5 0 67 13)(font "DejaVu Sans Condensed" (font_size 8)))
+	(text "inst" (rect 8 337 25 348)(font "DejaVu Sans Condensed" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "EN_N" (rect 0 0 30 13)(font "DejaVu Sans Condensed" (font_size 8)))
+		(text "EN_N" (rect 21 27 51 40)(font "DejaVu Sans Condensed" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "PADDR[3..0]" (rect 0 0 73 13)(font "DejaVu Sans Condensed" (font_size 8)))
+		(text "PADDR[3..0]" (rect 21 43 94 56)(font "DejaVu Sans Condensed" (font_size 8)))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "REG0[7..0]" (rect 0 0 63 13)(font "DejaVu Sans Condensed" (font_size 8)))
+		(text "REG0[7..0]" (rect 21 59 84 72)(font "DejaVu Sans Condensed" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "REG1[7..0]" (rect 0 0 63 13)(font "DejaVu Sans Condensed" (font_size 8)))
+		(text "REG1[7..0]" (rect 21 75 84 88)(font "DejaVu Sans Condensed" (font_size 8)))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "REG2[7..0]" (rect 0 0 63 13)(font "DejaVu Sans Condensed" (font_size 8)))
+		(text "REG2[7..0]" (rect 21 91 84 104)(font "DejaVu Sans Condensed" (font_size 8)))
+		(line (pt 0 96)(pt 16 96)(line_width 3))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "REG3[7..0]" (rect 0 0 63 13)(font "DejaVu Sans Condensed" (font_size 8)))
+		(text "REG3[7..0]" (rect 21 107 84 120)(font "DejaVu Sans Condensed" (font_size 8)))
+		(line (pt 0 112)(pt 16 112)(line_width 3))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "REG4[7..0]" (rect 0 0 63 13)(font "DejaVu Sans Condensed" (font_size 8)))
+		(text "REG4[7..0]" (rect 21 123 84 136)(font "DejaVu Sans Condensed" (font_size 8)))
+		(line (pt 0 128)(pt 16 128)(line_width 3))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "REG5[7..0]" (rect 0 0 63 13)(font "DejaVu Sans Condensed" (font_size 8)))
+		(text "REG5[7..0]" (rect 21 139 84 152)(font "DejaVu Sans Condensed" (font_size 8)))
+		(line (pt 0 144)(pt 16 144)(line_width 3))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "REG6[7..0]" (rect 0 0 63 13)(font "DejaVu Sans Condensed" (font_size 8)))
+		(text "REG6[7..0]" (rect 21 155 84 168)(font "DejaVu Sans Condensed" (font_size 8)))
+		(line (pt 0 160)(pt 16 160)(line_width 3))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "REG7[7..0]" (rect 0 0 63 13)(font "DejaVu Sans Condensed" (font_size 8)))
+		(text "REG7[7..0]" (rect 21 171 84 184)(font "DejaVu Sans Condensed" (font_size 8)))
+		(line (pt 0 176)(pt 16 176)(line_width 3))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "REG8[7..0]" (rect 0 0 63 13)(font "DejaVu Sans Condensed" (font_size 8)))
+		(text "REG8[7..0]" (rect 21 187 84 200)(font "DejaVu Sans Condensed" (font_size 8)))
+		(line (pt 0 192)(pt 16 192)(line_width 3))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "REG9[7..0]" (rect 0 0 63 13)(font "DejaVu Sans Condensed" (font_size 8)))
+		(text "REG9[7..0]" (rect 21 203 84 216)(font "DejaVu Sans Condensed" (font_size 8)))
+		(line (pt 0 208)(pt 16 208)(line_width 3))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "REGa[7..0]" (rect 0 0 63 13)(font "DejaVu Sans Condensed" (font_size 8)))
+		(text "REGa[7..0]" (rect 21 219 84 232)(font "DejaVu Sans Condensed" (font_size 8)))
+		(line (pt 0 224)(pt 16 224)(line_width 3))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "REGb[7..0]" (rect 0 0 63 13)(font "DejaVu Sans Condensed" (font_size 8)))
+		(text "REGb[7..0]" (rect 21 235 84 248)(font "DejaVu Sans Condensed" (font_size 8)))
+		(line (pt 0 240)(pt 16 240)(line_width 3))
+	)
+	(port
+		(pt 0 256)
+		(input)
+		(text "REGc[7..0]" (rect 0 0 62 13)(font "DejaVu Sans Condensed" (font_size 8)))
+		(text "REGc[7..0]" (rect 21 251 83 264)(font "DejaVu Sans Condensed" (font_size 8)))
+		(line (pt 0 256)(pt 16 256)(line_width 3))
+	)
+	(port
+		(pt 0 272)
+		(input)
+		(text "REGd[7..0]" (rect 0 0 63 13)(font "DejaVu Sans Condensed" (font_size 8)))
+		(text "REGd[7..0]" (rect 21 267 84 280)(font "DejaVu Sans Condensed" (font_size 8)))
+		(line (pt 0 272)(pt 16 272)(line_width 3))
+	)
+	(port
+		(pt 0 288)
+		(input)
+		(text "REGe[7..0]" (rect 0 0 63 13)(font "DejaVu Sans Condensed" (font_size 8)))
+		(text "REGe[7..0]" (rect 21 283 84 296)(font "DejaVu Sans Condensed" (font_size 8)))
+		(line (pt 0 288)(pt 16 288)(line_width 3))
+	)
+	(port
+		(pt 0 304)
+		(input)
+		(text "REGf[7..0]" (rect 0 0 60 13)(font "DejaVu Sans Condensed" (font_size 8)))
+		(text "REGf[7..0]" (rect 21 299 81 312)(font "DejaVu Sans Condensed" (font_size 8)))
+		(line (pt 0 304)(pt 16 304)(line_width 3))
+	)
+	(port
+		(pt 208 32)
+		(output)
+		(text "PRDATA[7..0]" (rect 0 0 79 13)(font "DejaVu Sans Condensed" (font_size 8)))
+		(text "PRDATA[7..0]" (rect 108 27 187 40)(font "DejaVu Sans Condensed" (font_size 8)))
+		(line (pt 208 32)(pt 192 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 192 336))
+	)
+)
